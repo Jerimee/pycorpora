@@ -78,6 +78,9 @@ You can use this syntax even with more deeply nested subdirectories::
     import pycorpora
     mr_men_little_miss_data = pycorpora.words.literature.mr_men_little_miss
     print mr_men_little_miss_data["little_miss"][-1] # prints "Wise"
+    
+    mr_men_table = pycorpora.words.literature.mr_men_little_miss["mr_men"]
+    print mr_men_table[-1] # prints "Wrong"
 
 You can use ``from pycorpora import ...`` to import a particular Corpora Project
 category::
